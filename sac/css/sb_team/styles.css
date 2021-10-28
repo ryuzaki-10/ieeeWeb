@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.breadcrumbs {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f0f8ff;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.breadcrumb-item {
+  font-weight: bold;
+}
+
+.active {
+  color: blue;
+}
+
+.team {
+  margin: 40px 0 60px 0;
+  padding: 3% 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  color: #082032;
+  padding: 60px 0;
+}
+
+h1:after {
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Merriweather';
+  letter-spacing: 2px;
+  color: #082032;
+  padding-bottom: 10px;
+  display: block;
+}
+
+h5 {
+  color: black;
+  font-family: 'Quicksand'
+}
+
+.container-fluid{
+  padding-bottom: 100px;
+}
+
+.profile1 {
+  margin-top: 1.5%;
+  margin-bottom: 5%;
+}
+
+.prof {
+  padding: 3% 5%;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #f0f8ff;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #000080;
+  font-size: 22px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
