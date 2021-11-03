@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+  color: #161c2d;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.society {
+  color: #161E54;
+  padding: 2% 0;
+}
+
+.breadcrumbs {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  width: 70%;
+  margin: 10px auto;
+}
+
+img {
+  padding-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.breadcrumb-item {
+  font-weight: bold;
+}
+
+.active {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  color: #082032;
+  padding: 60px 5%;
+}
+
+h1:after {
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+section {
+  padding: 5px 0;
+  position: relative;
+}
+
+.about_ca {
+  padding: 0 15%;
+}
+
+.about_ca .content .btn-learn-more {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #2C2891;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #2C2891;
+}
+
+.about_ca .content .btn-learn-more:hover {
+  background: #2C2891;
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile1 {
+  display: inline-block;
+}
+
+.society {
+  text-align: center;
+  display: inline-block;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: white;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #2C2891;
+  font-size: 22px;
+  opacity: 0.5;
+}
